@@ -1,0 +1,400 @@
+{
+  "monthly": [
+    {
+      "mes": "2025-01",
+      "ingresos": 85224.85,
+      "pedidos": 123,
+      "satisfaccion": 3.8
+    },
+    {
+      "mes": "2025-02",
+      "ingresos": 72373.39,
+      "pedidos": 125,
+      "satisfaccion": 3.94
+    },
+    {
+      "mes": "2025-03",
+      "ingresos": 65710.48,
+      "pedidos": 98,
+      "satisfaccion": 3.94
+    },
+    {
+      "mes": "2025-04",
+      "ingresos": 102633.07,
+      "pedidos": 137,
+      "satisfaccion": 3.99
+    },
+    {
+      "mes": "2025-05",
+      "ingresos": 93774.6,
+      "pedidos": 138,
+      "satisfaccion": 4.16
+    },
+    {
+      "mes": "2025-06",
+      "ingresos": 85033.68,
+      "pedidos": 132,
+      "satisfaccion": 3.92
+    },
+    {
+      "mes": "2025-07",
+      "ingresos": 62561.26,
+      "pedidos": 107,
+      "satisfaccion": 3.84
+    },
+    {
+      "mes": "2025-08",
+      "ingresos": 81897.8,
+      "pedidos": 142,
+      "satisfaccion": 3.7
+    },
+    {
+      "mes": "2025-09",
+      "ingresos": 73116.27,
+      "pedidos": 121,
+      "satisfaccion": 3.79
+    },
+    {
+      "mes": "2025-10",
+      "ingresos": 80852.7,
+      "pedidos": 131,
+      "satisfaccion": 3.99
+    },
+    {
+      "mes": "2025-11",
+      "ingresos": 159293.37,
+      "pedidos": 120,
+      "satisfaccion": 3.96
+    },
+    {
+      "mes": "2025-12",
+      "ingresos": 192489.74,
+      "pedidos": 126,
+      "satisfaccion": 3.81
+    }
+  ],
+  "country": [
+    {
+      "pais": "Argentina",
+      "ingresos": 170683.8,
+      "pedidos": 224,
+      "clientes": 166,
+      "satisfaccion": 4.02,
+      "unidades": 354,
+      "costeMedioEnvio": 29.0
+    },
+    {
+      "pais": "Chile",
+      "ingresos": 132404.88,
+      "pedidos": 158,
+      "clientes": 131,
+      "satisfaccion": 3.87,
+      "unidades": 265,
+      "costeMedioEnvio": 30.5
+    },
+    {
+      "pais": "Colombia",
+      "ingresos": 164527.69,
+      "pedidos": 213,
+      "clientes": 169,
+      "satisfaccion": 3.91,
+      "unidades": 348,
+      "costeMedioEnvio": 28.32
+    },
+    {
+      "pais": "España",
+      "ingresos": 447272.26,
+      "pedidos": 586,
+      "clientes": 304,
+      "satisfaccion": 3.9,
+      "unidades": 964,
+      "costeMedioEnvio": 29.0
+    },
+    {
+      "pais": "México",
+      "ingresos": 240072.58,
+      "pedidos": 319,
+      "clientes": 212,
+      "satisfaccion": 3.85,
+      "unidades": 509,
+      "costeMedioEnvio": 28.65
+    }
+  ],
+  "channel": [
+    {
+      "canal": "App",
+      "ingresos": 316265.09,
+      "pedidos": 438,
+      "satisfaccion": 3.86,
+      "costeMedioEnvio": 27.81
+    },
+    {
+      "canal": "Tienda Física",
+      "ingresos": 231464.61,
+      "pedidos": 310,
+      "satisfaccion": 3.97,
+      "costeMedioEnvio": 28.32
+    },
+    {
+      "canal": "Web",
+      "ingresos": 607231.51,
+      "pedidos": 752,
+      "satisfaccion": 3.91,
+      "costeMedioEnvio": 29.95
+    }
+  ],
+  "category": [
+    {
+      "categoria": "Estilo de Vida",
+      "ingresos": 161824.96,
+      "pedidos": 597,
+      "satisfaccion": 3.89
+    },
+    {
+      "categoria": "Tecnología",
+      "ingresos": 993136.25,
+      "pedidos": 903,
+      "satisfaccion": 3.91
+    }
+  ],
+  "products": [
+    {
+      "producto": "Auriculares Noise-Cancelling",
+      "ingresos": 204888.08,
+      "pedidos": 182,
+      "satisfaccion": 3.99,
+      "categoria": "Tecnología"
+    },
+    {
+      "producto": "Botella Térmica Inteligente",
+      "ingresos": 36407.13,
+      "pedidos": 133,
+      "satisfaccion": 3.77,
+      "categoria": "Estilo de Vida"
+    },
+    {
+      "producto": "Laptop Pro 15",
+      "ingresos": 203237.87,
+      "pedidos": 191,
+      "satisfaccion": 3.82,
+      "categoria": "Tecnología"
+    },
+    {
+      "producto": "Lámpara LED Escritorio",
+      "ingresos": 25263.97,
+      "pedidos": 104,
+      "satisfaccion": 3.98,
+      "categoria": "Estilo de Vida"
+    },
+    {
+      "producto": "Mochila Ergonómica",
+      "ingresos": 34855.16,
+      "pedidos": 116,
+      "satisfaccion": 3.99,
+      "categoria": "Estilo de Vida"
+    },
+    {
+      "producto": "Monitor 4K Curved",
+      "ingresos": 197869.5,
+      "pedidos": 173,
+      "satisfaccion": 3.92,
+      "categoria": "Tecnología"
+    },
+    {
+      "producto": "Set de Teclado Mecánico",
+      "ingresos": 36846.46,
+      "pedidos": 133,
+      "satisfaccion": 3.92,
+      "categoria": "Estilo de Vida"
+    },
+    {
+      "producto": "Silla Gaming X",
+      "ingresos": 28452.24,
+      "pedidos": 111,
+      "satisfaccion": 3.83,
+      "categoria": "Estilo de Vida"
+    },
+    {
+      "producto": "Smartphone Alpha",
+      "ingresos": 191084.51,
+      "pedidos": 183,
+      "satisfaccion": 3.86,
+      "categoria": "Tecnología"
+    },
+    {
+      "producto": "Smartwatch Series Z",
+      "ingresos": 196056.29,
+      "pedidos": 174,
+      "satisfaccion": 3.99,
+      "categoria": "Tecnología"
+    }
+  ],
+  "satisfaction": [
+    {
+      "nivel": "Alta",
+      "count": 1040
+    },
+    {
+      "nivel": "Media",
+      "count": 233
+    },
+    {
+      "nivel": "Baja",
+      "count": 227
+    }
+  ],
+  "quarterly": [
+    {
+      "trimestre": "T1",
+      "ingresos": 223308.72,
+      "pedidos": 346,
+      "satisfaccion": 3.89
+    },
+    {
+      "trimestre": "T2",
+      "ingresos": 281441.35,
+      "pedidos": 407,
+      "satisfaccion": 4.03
+    },
+    {
+      "trimestre": "T3",
+      "ingresos": 217575.33,
+      "pedidos": 370,
+      "satisfaccion": 3.77
+    },
+    {
+      "trimestre": "T4",
+      "ingresos": 432635.81,
+      "pedidos": 377,
+      "satisfaccion": 3.92
+    }
+  ],
+  "countryChannel": [
+    {
+      "pais": "Argentina",
+      "canal": "App",
+      "ingresos": 59557.9
+    },
+    {
+      "pais": "Argentina",
+      "canal": "Tienda Física",
+      "ingresos": 29761.36
+    },
+    {
+      "pais": "Argentina",
+      "canal": "Web",
+      "ingresos": 81364.54
+    },
+    {
+      "pais": "Chile",
+      "canal": "App",
+      "ingresos": 28822.6
+    },
+    {
+      "pais": "Chile",
+      "canal": "Tienda Física",
+      "ingresos": 29462.42
+    },
+    {
+      "pais": "Chile",
+      "canal": "Web",
+      "ingresos": 74119.86
+    },
+    {
+      "pais": "Colombia",
+      "canal": "App",
+      "ingresos": 32729.66
+    },
+    {
+      "pais": "Colombia",
+      "canal": "Tienda Física",
+      "ingresos": 32680.44
+    },
+    {
+      "pais": "Colombia",
+      "canal": "Web",
+      "ingresos": 99117.59
+    },
+    {
+      "pais": "España",
+      "canal": "App",
+      "ingresos": 115558.71
+    },
+    {
+      "pais": "España",
+      "canal": "Tienda Física",
+      "ingresos": 90490.92
+    },
+    {
+      "pais": "España",
+      "canal": "Web",
+      "ingresos": 241222.63
+    },
+    {
+      "pais": "México",
+      "canal": "App",
+      "ingresos": 79596.22
+    },
+    {
+      "pais": "México",
+      "canal": "Tienda Física",
+      "ingresos": 49069.47
+    },
+    {
+      "pais": "México",
+      "canal": "Web",
+      "ingresos": 111406.89
+    }
+  ],
+  "costs": {
+    "costo_envio_total": 43483.07,
+    "ingreso_neto_total": 1111478.14,
+    "coste_envio_relativo_medio": 5.3
+  },
+  "satisfactionByCountry": [
+    {
+      "pais": "Argentina",
+      "satisfaccion": 4.02,
+      "costeMedioEnvio": 29.0
+    },
+    {
+      "pais": "Chile",
+      "satisfaccion": 3.87,
+      "costeMedioEnvio": 30.5
+    },
+    {
+      "pais": "Colombia",
+      "satisfaccion": 3.91,
+      "costeMedioEnvio": 28.32
+    },
+    {
+      "pais": "España",
+      "satisfaccion": 3.9,
+      "costeMedioEnvio": 29.0
+    },
+    {
+      "pais": "México",
+      "satisfaccion": 3.85,
+      "costeMedioEnvio": 28.65
+    }
+  ],
+  "satisfactionByChannel": [
+    {
+      "canal": "App",
+      "satisfaccion": 3.86
+    },
+    {
+      "canal": "Tienda Física",
+      "satisfaccion": 3.97
+    },
+    {
+      "canal": "Web",
+      "satisfaccion": 3.91
+    }
+  ],
+  "total_orders": 1500,
+  "total_customers": 389,
+  "total_revenue": 1154961.21,
+  "avg_satisfaction": 3.91,
+  "avg_ticket": 769.97
+}
