@@ -67,8 +67,7 @@ export default function IntroSection() {
   return (
     <section
       ref={sectionRef}
-      className="w-full relative overflow-hidden"
-      style={{ backgroundColor: '#0A0A0C' }}
+      className="w-full relative overflow-hidden bg-obsidian"
     >
       {/* Decorative gradient */}
       <div
@@ -106,11 +105,7 @@ export default function IntroSection() {
                 return (
                   <div
                     key={i}
-                    className="flex items-center gap-2 px-4 py-2.5 rounded-lg"
-                    style={{
-                      backgroundColor: 'rgba(13, 148, 136, 0.08)',
-                      border: '1px solid rgba(13, 148, 136, 0.2)',
-                    }}
+                    className="flex items-center gap-2 px-4 py-2.5 rounded-lg bg-teal/10 border border-teal/20"
                   >
                     <Icon size={16} className="text-teal" />
                     <span className="text-sm text-ivory font-medium">{item.text}</span>
@@ -128,7 +123,7 @@ export default function IntroSection() {
 
             <div className="intro-reveal space-y-4">
               <div className="card-interactive flex gap-4 p-5 cursor-default">
-                <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(13, 148, 136, 0.12)' }}>
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 bg-teal/10">
                   <span className="font-mono text-teal font-bold text-sm">01</span>
                 </div>
                 <div>
@@ -138,7 +133,7 @@ export default function IntroSection() {
               </div>
 
               <div className="card-interactive flex gap-4 p-5 cursor-default">
-                <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(245, 158, 11, 0.12)' }}>
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 bg-amber-500/10">
                   <span className="font-mono text-amber font-bold text-sm">02</span>
                 </div>
                 <div>
@@ -148,7 +143,7 @@ export default function IntroSection() {
               </div>
 
               <div className="card-interactive flex gap-4 p-5 cursor-default">
-                <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(20, 184, 166, 0.12)' }}>
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 bg-teal-400/10">
                   <span className="font-mono text-teal-glow font-bold text-sm">03</span>
                 </div>
                 <div>
@@ -158,7 +153,7 @@ export default function IntroSection() {
               </div>
 
               <div className="card-interactive flex gap-4 p-5 cursor-default">
-                <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(244, 63, 94, 0.12)' }}>
+                <div className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 bg-rose-500/10">
                   <span className="font-mono text-rose font-bold text-sm">04</span>
                 </div>
                 <div>
@@ -179,7 +174,7 @@ export default function IntroSection() {
             const Icon = item.icon;
             return (
               <div key={i} className="text-center">
-                <div className="inline-flex items-center justify-center w-10 h-10 rounded-lg mb-3" style={{ backgroundColor: 'rgba(13, 148, 136, 0.1)', border: '1px solid rgba(13, 148, 136, 0.2)' }}>
+                <div className="inline-flex items-center justify-center w-10 h-10 rounded-lg mb-3 bg-teal/10 border border-teal/20">
                   <Icon size={18} className="text-teal" />
                 </div>
                 <div className="font-mono font-bold text-2xl text-ivory">{item.value}</div>

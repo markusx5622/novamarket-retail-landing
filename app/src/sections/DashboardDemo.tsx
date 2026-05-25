@@ -153,10 +153,78 @@ export default function DashboardDemo() {
     { p: 5, c: Math.round(618 * revenueRatio) },
   ];
 
-  // (tu código de render, componentes, tablas, etc.)
-  // Solo debes consumir fCountry, fChannel, fCategory, fProducts, fMonthly, fQuarterly, fSatisfaction, fSatisfactionByCountry, fSatisfactionByChannel, fCosts, SAT_DIST
-  // Ejemplo:
-  // <BarChart data={fCategory} ... />
-  // ...
-  return <>{/* JSX según referencia anterior, solo usando los datos filtrados */}</>;
+  const activeTabData = TABS.find(t => t.key === activeTab);
+
+  return (
+    <section id="demo" className="w-full bg-obsidian py-16">
+      <div className="page-gutter content-max">
+        {/* Contenedor principal del Dashboard */}
+        <div className="bg-[#111114] border border-[#374151] rounded-2xl p-6 lg:p-8 overflow-hidden shadow-2xl">
+          
+          {/* Header con Logo y Filtros */}
+          <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 mb-8">
+            <div className="flex items-center gap-4">
+              <img src="/assets/nova_market_retail_logo.png" alt="NovaMarket Retail" className="h-10 w-auto" />
+              <div>
+                <h2 className="font-display font-bold text-xl text-[#F5F5F0]">
+                  {activeTabData?.label}
+                </h2>
+                <p className="text-[#6B7280] text-xs italic">
+                  {activeTabData?.subtitle}
+                </p>
+              </div>
+            </div>
+
+            {/* Filtros Globales */}
+            <div className="flex flex-wrap items-center gap-3 w-full lg:w-auto">
+              {[ 
+                { label: 'Categoría', val: filterCat, setter: setFilterCat, options: CATEGORIAS },
+                { label: 'Canal', val: filterCanal, setter: setFilterCanal, options: CANALES },
+                { label: 'País', val: filterPais, setter: setFilterPais, options: PAISES },
+              ].map((filter, i) => (
+                <select
+                  key={i}
+                  value={filter.val}
+                  onChange={(e) => filter.setter(e.target.value)}
+                  className="bg-[#1A1A20] border border-[#374151] text-[#F5F5F0] text-sm rounded-lg px-3 py-2 outline-none hover:border-[#0D9488] transition-colors cursor-pointer"
+                >
+                  <option disabled value="">{filter.label}</option>
+                  {filter.options.map(opt => <option key={opt} value={opt}>{opt}</option>)}
+                </select>
+              ))}
+              
+              <button 
+                onClick={() => { setFilterCat('Todos'); setFilterCanal('Todos'); setFilterPais('Todos'); }}
+                className="text-xs text-[#0D9488] hover:text-[#14B8A6] transition-colors underline underline-offset-4 ml-2"
+              >
+                LIMPIAR
+              </button>
+            </div>
+          </div>
+
+          {/* Navegación de Tabs */}
+          <div className="flex flex-wrap gap-2 border-b border-[#374151] pb-4 mb-6">
+            {TABS.map(tab => (
+              <button
+                key={tab.key}
+                onClick={() => setActiveTab(tab.key)}
+                className={`px-4 py-2 rounded-md text-sm font-medium transition-all ${
+                  activeTab === tab.key 
+                    ? 'bg-[#1A3A5C] text-[#F5F5F0] border border-[#2563EB]/30' 
+                    : 'text-[#6B7280] hover:text-[#F5F5F0] hover:bg-[#1A1A20]'
+                }`}
+              >
+                {tab.label.split(' — ')[1] || tab.label}
+              </button>
+            ))}
+          </div>
+
+          {/* Área de Gráficos (Grid) */}
+          <div className="min-h-[500px] flex items-center justify-center border border-dashed border-[#374151] rounded-xl bg-[#1A1A20]/50">
+            <p className="text-[#6B7280] font-mono text-sm">Página activa: {activeTab} (Gráficos pendientes de implementar)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
